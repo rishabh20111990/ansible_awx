@@ -1,6 +1,5 @@
 ---
-- hosts: IT
-  gather_facts: false
+- gather_facts: false
   tasks:
    - name: install git
      apt:
