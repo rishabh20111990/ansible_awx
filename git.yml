@@ -1,0 +1,8 @@
+---
+- hosts: IT
+  gather_facts: false
+  tasks:
+   - name: install git
+     apt:
+      name: git
+      state: latest
